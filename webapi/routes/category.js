@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const categoryController = require("../mongo/controllers/categoryController");
 
-    const baseUrl = "https://fiyo.click/api/images/";
+    const baseUrl = "https://fiyo-be.onrender.com/api/images/";
 const multer = require("multer");
 
 // Multer config

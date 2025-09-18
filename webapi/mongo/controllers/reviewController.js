@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Review = require("../models/reviewModel");
-const baseUrl = "https://fiyo.click/api/images/";
+const baseUrl = "https://fiyo-be.onrender.com/api/images/";
 const Product = require("../models/productsModel");
 const User = require("../models/userModels");
 const OrderDetail = require("../models/orderDetailModel");

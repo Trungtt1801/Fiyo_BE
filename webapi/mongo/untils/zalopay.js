@@ -25,10 +25,10 @@ async function createZaloPayOrder(amount, userId, orderId) {
     amount,
     description: `Thanh toán đơn hàng #${transID}`,
     bank_code: "zalopayapp",
-     callback_url: "https://fiyo.click/orders/zalopay-callback", // API backend của ông
-  return_url: `https://fiyo.click/order/${orderId}`, 
+     callback_url: "https://fiyo-be.onrender.com/orders/zalopay-callback", // API backend của ông
+  return_url: `https://fiyo-be.onrender.com/order/${orderId}`, 
   };
-  // console.log("return_url:", `https://fiyo.click/api/order/${orderId}`);
+  // console.log("return_url:", `https://fiyo-be.onrender.com/api/order/${orderId}`);
 
   const data = [
     order.app_id,
