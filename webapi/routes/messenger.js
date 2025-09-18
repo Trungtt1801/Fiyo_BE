@@ -27,7 +27,7 @@
 
   // helper để tạo URL ảnh
   function mapImagePath(file) {
-    return file ? `https://fiyo.click/api/images/
+    return file ? `https://fiyo-be.onrender.com/api/images/
 ${file.filename}` : "";
   }
 

@@ -1,4 +1,4 @@
-const IMG_BASE = process.env.BASE_IMAGE_URL || "https://fiyo.click/api/images/";
+const IMG_BASE = process.env.BASE_IMAGE_URL || "https://fiyo-be.onrender.com/api/images/";
 
 function normalizeImageUrl(u) {
   if (!u) return "";
